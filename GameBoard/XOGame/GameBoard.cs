@@ -31,9 +31,9 @@ namespace C17_Ex02
 
         internal void InitGameBoard()
         {
-            for (int i=0; i < m_BoardSize; i++)
+            for (int i = 0; i < m_BoardSize; i++)
             {
-                for (int j=0; j < m_BoardSize; j++)
+                for (int j = 0; j < m_BoardSize; j++)
                 {
                     m_MatrixGameBoard[i, j] = null;
                 }

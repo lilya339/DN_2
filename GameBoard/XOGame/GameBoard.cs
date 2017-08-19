@@ -17,6 +17,23 @@ namespace C17_Ex02
             m_AmountOccupiedCells = 0;
         }
        
+        public int BoardSize
+        {
+            get { return m_BoardSize; }
+            set
+            {
+                if (value >=3 && value<=9)
+                {
+                    m_BoardSize = value;
+                }
+            }
+        }
+
+        public char?[,] MatrixGameBoard
+        {
+            get { return m_MatrixGameBoard; }
+        }
+
         public int AmountOccupiedCells
         {
             get { return m_AmountOccupiedCells; }

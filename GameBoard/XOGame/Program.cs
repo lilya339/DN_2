@@ -21,10 +21,8 @@ namespace C17_Ex02
             boardSize = inputBoardSize();
             amountOfPlayers = inputAmountPlayers();
             inputPlayersName(ref firstPlayerName, ref secondPlayerName, amountOfPlayers);
-            
             theGame = new UserInterfaceGame(boardSize, firstPlayerName, secondPlayerName, amountOfPlayers);
-            
-
+            theGame.printGameBoard();
 
             Console.ReadLine();
 

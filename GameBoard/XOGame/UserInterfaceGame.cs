@@ -48,5 +48,29 @@ namespace C17_Ex02
             chosenRow = Console.Read();
             chosenCol = Console.Read();
         }
+
+        internal void printGameBoard()
+        {
+            for(int i=0;i<m_GameBoard.BoardSize;i++)
+            {
+                Console.Write("{0,6}", i + 1);
+            }
+
+            for(int i = 0; i < m_GameBoard.BoardSize; i++)
+            {
+                Console.Write("\n{0}|",i+1);
+                for(int j = 0;j<m_GameBoard.BoardSize; j++)
+                {
+                    Console.Write("{0,5}|", m_GameBoard.MatrixGameBoard[i, j]);
+                }
+
+                Console.Write("\n  ");
+                for(int j=0;j<m_GameBoard.BoardSize;j++)
+                {
+                    Console.Write("======");
+
+                }
+            }
+        }
     }
 }

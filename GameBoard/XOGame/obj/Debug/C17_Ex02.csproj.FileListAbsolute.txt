@@ -1,0 +1,6 @@
+c:\users\sasha\documents\visual studio 2015\Projects\GameBoard\XOGame\bin\Debug\XOGame.exe
+c:\users\sasha\documents\visual studio 2015\Projects\GameBoard\XOGame\bin\Debug\XOGame.pdb
+c:\users\sasha\documents\visual studio 2015\Projects\GameBoard\XOGame\obj\Debug\C17_Ex02.csprojResolveAssemblyReference.cache
+c:\users\sasha\documents\visual studio 2015\Projects\GameBoard\XOGame\obj\Debug\XOGame.exe
+c:\users\sasha\documents\visual studio 2015\Projects\GameBoard\XOGame\obj\Debug\XOGame.pdb
+c:\users\sasha\documents\visual studio 2015\Projects\GameBoard\XOGame\bin\Debug\Ex02.ConsoleUtils.dll
